@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://seimei-ai.github.io/yomitoku-seikei/sitemap.xml
