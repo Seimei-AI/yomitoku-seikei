@@ -74,6 +74,12 @@
   table.plain{width:100%;border-collapse:collapse;font-size:14px;margin:10px 0;}
   table.plain th,table.plain td{border:1px solid var(--line);padding:8px 10px;text-align:left;}
   table.plain th{background:#eef3f9;color:var(--navy);}
+  .nextsteps{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;margin:14px 0;}
+  @media(max-width:700px){.nextsteps{grid-template-columns:1fr;}}
+  .nextstep{background:#f8fafc;border:1px solid var(--line);border-radius:8px;padding:14px;}
+  .nextstep .nsnum{display:inline-block;background:var(--accent);color:#222;font-weight:800;border-radius:50%;width:24px;height:24px;text-align:center;line-height:24px;font-size:13px;}
+  .nextstep h3{font-size:14px;margin:8px 0 4px;color:var(--navy);}
+  .nextstep p{font-size:13px;margin:0;color:#556;line-height:1.7;}
 </style>
 </head>
 <body>
@@ -136,9 +142,25 @@
   <h2>他の「壁」との関係</h2>
   <p>年収の壁は106万円だけではありません。130万円（扶養から外れる線）、178万円（所得税がかかり始める線）など複数あり、性質もばらばらです。すべてを1枚の表に整理しました。→ <a href="nenshu-no-kabe-hayamihyo-2026.html">【2026年版】年収の壁 早見表——「本当に損する壁」は、もう1本しかありません</a></p>
 
-  <h2>もっと深く知るには</h2>
-  <p>社会保険と年金は、扶養・働き方・将来の受給がひとつながりの制度です。全体を一度つかんでおくと、働き方の判断がしやすくなります。→ <a href="../manabu.html">税金・年金の制度に強くなる——本と講座の選び方</a></p>
-
+  <h2>次に読むなら</h2>
+  <div class="nextsteps">
+    <div class="nextstep">
+      <span class="nsnum">1</span>
+      <h3>同じ悩みをもう少し</h3>
+      <p><a href="nenshu-no-kabe-hayamihyo-2026.html">年収の壁 早見表——気にすべき壁は1本だけ</a></p>
+    </div>
+    <div class="nextstep">
+      <span class="nsnum">2</span>
+      <h3>1冊で骨組みを押さえる</h3>
+      <p>壁の正体は年金・社会保険の制度です。<a href="../hon.html">年金の本を1冊（選び方と対応表）</a></p>
+    </div>
+    <div class="nextstep">
+      <span class="nsnum">3</span>
+      <h3>体系的に学ぶ</h3>
+      <p>毎回調べ直すのをやめたい方へ。<a href="../manabu.html">本と講座の選び方</a></p>
+    </div>
+  </div>
+  <p class="note">※当サイトの記事に広告（PR）リンクはありません。上のリンク先も、出版社・提供会社の公式ページへの通常のリンクです。</p>
   <h2>コメント</h2>
   <p class="note">コメントは<strong>承認制</strong>です（反映までお時間をいただきます）。投稿前に<a href="../disclaimer.html#comment-policy">コメントのきまり</a>をご確認ください。誹謗中傷や特定の政党・政治家への攻撃は承認されません。</p>
   <div id="cusdis_thread"

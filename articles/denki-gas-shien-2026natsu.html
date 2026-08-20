@@ -75,6 +75,12 @@
   table.plain th,table.plain td{border:1px solid var(--line);padding:8px 10px;text-align:left;}
   table.plain th{background:#eef3f9;color:var(--navy);}
   table.plain td.hl{background:#fbf7ec;font-weight:700;}
+  .nextsteps{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;margin:14px 0;}
+  @media(max-width:700px){.nextsteps{grid-template-columns:1fr;}}
+  .nextstep{background:#f8fafc;border:1px solid var(--line);border-radius:8px;padding:14px;}
+  .nextstep .nsnum{display:inline-block;background:var(--accent);color:#222;font-weight:800;border-radius:50%;width:24px;height:24px;text-align:center;line-height:24px;font-size:13px;}
+  .nextstep h3{font-size:14px;margin:8px 0 4px;color:var(--navy);}
+  .nextstep p{font-size:13px;margin:0;color:#556;line-height:1.7;}
 </style>
 </head>
 <body>
@@ -143,9 +149,25 @@
   <p>2026年8月20日時点で、<strong>10月使用分以降の電気・ガス料金支援は発表されていません</strong>。現在の支援は予定どおり9月使用分（10月検針分）で終了する見込みです。10月以降の請求は「値上がりした」ように見えますが、その多くは<strong>支援が終わって元に戻った分</strong>です。いまのうちに検針票の値引き額を控えておくと、後で切り分けられます。発表があり次第この記事に追記します。</p>
   <p>電気・ガス以外の支援（高校の授業料・児童手当・自治体の給付金など）とあわせて確認したい方は、こちらに一覧があります。→ <a href="ima-tsukaeru-shien-matome.html">【2026年8月版】今使える支援策まとめ——「申請が要るもの／要らないもの」で分けました</a></p>
 
-  <h2>もっと深く知るには</h2>
-  <p>支援策や補助の仕組みは毎年のように変わります。制度の全体像を一度つかんでおくと、対象かどうかの判断が速くなります。→ <a href="../manabu.html">税金・年金の制度に強くなる——本と講座の選び方</a></p>
-
+  <h2>次に読むなら</h2>
+  <div class="nextsteps">
+    <div class="nextstep">
+      <span class="nsnum">1</span>
+      <h3>同じ悩みをもう少し</h3>
+      <p><a href="ima-tsukaeru-shien-matome.html">今使える支援策まとめ——申請が要るもの／要らないもの</a></p>
+    </div>
+    <div class="nextstep">
+      <span class="nsnum">2</span>
+      <h3>1冊で骨組みを押さえる</h3>
+      <p>支援も控除も、骨組みは同じところにつながっています。<a href="../hon.html">制度の本の選び方と対応表</a></p>
+    </div>
+    <div class="nextstep">
+      <span class="nsnum">3</span>
+      <h3>体系的に学ぶ</h3>
+      <p>毎回調べ直すのをやめたい方へ。<a href="../manabu.html">本と講座の選び方</a></p>
+    </div>
+  </div>
+  <p class="note">※当サイトの記事に広告（PR）リンクはありません。上のリンク先も、出版社・提供会社の公式ページへの通常のリンクです。</p>
   <h2>コメント</h2>
   <p class="note">コメントは<strong>承認制</strong>です（反映までお時間をいただきます）。投稿前に<a href="../disclaimer.html#comment-policy">コメントのきまり</a>をご確認ください。誹謗中傷や特定の政党・政治家への攻撃は承認されません。</p>
   <div id="cusdis_thread"
